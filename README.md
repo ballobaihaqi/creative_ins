@@ -1,2 +1,2 @@
-# creative_ins.github.io
+# creative_ins
 Landing Page Creative Ins.
