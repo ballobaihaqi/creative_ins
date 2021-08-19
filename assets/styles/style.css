@@ -29,8 +29,8 @@ main {
 }
 .benefit {
   height: 30vh;
-  color: #ffffff;
-  background-color: #ff930f;
+  color: #000000;
+  border: 5px solid #ff930f;
 }
 
 /* .benefit:hover {
