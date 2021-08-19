@@ -40,7 +40,7 @@ main {
   background-color: #ff930f;
 } */
 footer {
-  padding: 10px 0;
+  padding: 15px 0;
   background: linear-gradient(180deg, rgba(248, 155, 41, 1) 0%, rgba(255, 147, 15, 1) 65%, rgba(248, 169, 2, 1) 100%);
   color: white;
 }
