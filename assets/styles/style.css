@@ -12,6 +12,7 @@ main {
   margin: 25px;
 }
 
+/* Home Page */
 .banner {
   width: 100%;
   height: 100vh;
@@ -39,12 +40,24 @@ main {
   max-width: 65rem;
 }
 
-/* .benefit:hover {
-  height: 30vh;
-  transition: all 0.3s;
-  color: #fff;
-  background-color: #ff930f;
-} */
+/* About Page */
+.contentProfil {
+  text-align: justify;
+}
+.bannerAbout {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  z-index: -1;
+}
+@media screen and (max-width: 576px) {
+  .imgAbout {
+    width: 75%;
+  }
+}
+
 footer {
   padding: 15px 0;
   background: linear-gradient(180deg, rgba(248, 155, 41, 1) 0%, rgba(255, 147, 15, 1) 65%, rgba(248, 169, 2, 1) 100%);
