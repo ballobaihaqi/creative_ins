@@ -36,6 +36,9 @@ main {
   color: #000000;
   border: 5px solid #ff930f;
 }
+.benefit-content {
+  text-align: justify;
+}
 .card-event {
   max-width: 65rem;
 }
