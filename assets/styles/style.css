@@ -16,7 +16,6 @@ main {
 .banner {
   width: 100%;
   height: 100vh;
-  object-fit: cover;
   object-position: center;
   position: absolute;
   z-index: -1;
@@ -32,37 +31,46 @@ main {
   border: 1px solid #cccccc;
   background-color: white;
 }
-.benefit {
-  color: #000000;
-  border: 5px solid #ff930f;
-}
+
 .benefit-content {
   text-align: justify;
 }
 .card-event {
   max-width: 65rem;
 }
+.linkSosmed {
+  text-decoration: none;
+  color: #000000;
+}
+.sosmed a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /* About Page */
 .contentProfil {
   text-align: justify;
 }
-.bannerAbout {
-  width: 100%;
-  height: 75vh;
-  object-fit: cover;
-  object-position: center;
-  position: absolute;
-  z-index: -1;
-}
+
+/* Breakpoint */
 @media screen and (max-width: 576px) {
+  /* Banner Page Home */
+  .banner {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: -1;
+  }
+  /* Page About */
   .imgAbout {
     width: 75%;
   }
 }
 
 footer {
-  padding: 15px 0;
+  padding: 13px 0;
   background: linear-gradient(180deg, rgba(248, 155, 41, 1) 0%, rgba(255, 147, 15, 1) 65%, rgba(248, 169, 2, 1) 100%);
   color: white;
 }
