@@ -20,9 +20,13 @@ main {
   position: absolute;
   z-index: -1;
 }
-.price {
+.price,
+.harga {
   color: #ff930f;
   font-weight: bold;
+}
+.hrgCoret {
+  font-size: 11pt;
 }
 .paket:hover {
   transition: all 0.2s ease-out;
@@ -31,22 +35,16 @@ main {
   border: 1px solid #cccccc;
   background-color: white;
 }
-
 .benefit-content {
   text-align: justify;
 }
 .card-event {
   max-width: 65rem;
 }
-.linkSosmed {
-  text-decoration: none;
-  color: #000000;
+.bioMentor {
+  text-align: justify;
+  font-size: 11pt;
 }
-.sosmed a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
 /* About Page */
 .contentProfil {
   text-align: justify;
@@ -66,6 +64,13 @@ main {
   /* Page About */
   .imgAbout {
     width: 75%;
+  }
+  .igAccount {
+    margin-right: 10px;
+    margin-left: 45px;
+  }
+  .fbAccount {
+    margin-right: 50px;
   }
 }
 
