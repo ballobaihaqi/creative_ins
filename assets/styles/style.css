@@ -71,9 +71,6 @@ main {
     position: absolute;
     z-index: -1;
   }
-  * {
-    overflow-x: hidden;
-  }
   /* Page About */
   .imgAbout {
     width: 75%;
