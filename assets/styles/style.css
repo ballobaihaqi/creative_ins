@@ -21,11 +21,11 @@ main {
   z-index: -1;
 }
 .price,
-.harga {
+.hargaDisc {
   color: #ff930f;
   font-weight: bold;
 }
-.hrgCoret {
+.harga {
   font-size: 11pt;
 }
 .paket:hover {

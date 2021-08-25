@@ -69,91 +69,10 @@
     <section class="py-5 mb-5" id="packet">
       <div class="container">
         <h3 class="text-center pt-5 pb-4">Paket Kelas</h3>
-        <div class="row">
-          <!-- Paket Desain Grafis -->
-          <div class="col-sm-3 pb-3">
-            <div class="card paket">
-              <img src="assets/img/theme-photos-CGpifH3FjOA-unsplash.jpg" class="card-img-top" alt="paketA" />
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Graphic Design</h5>
-                <div class="price">
-                  <h6 class="card-title pe-2 harga">Rp. 175.000,00</h6>
-                  <h6 class="card-title text-decoration-line-through hrgCoret">Rp. 300.000,00</h6>
-                </div>
-                <p class="card-text">Belajar skill desain selama sebulan dengan 4 kali pertemuan via Zoom untuk Live Mentoring dan Whatsapp Grup sebagai media kelasnya</p>
-                <a href="#" class="btn btn-outline-warning btnPacket1" data-bs-toggle="modal" data-bs-target="#orderPacket">Pesan</a>
-              </div>
-            </div>
-          </div>
-          <!-- end Paket Desain Grafis -->
-
-          <!-- Paket Video Editing -->
-          <div class="col-sm-3 pb-3">
-            <div class="card paket">
-              <img src="assets/img/spartan-xozz-u4bvBOOpZB4-unsplash.jpg" class="card-img-top" alt="paketB" />
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Video Editing</h5>
-                <h6 class="card-title harga">Comingsoon</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-warning btnPacket2" data-bs-toggle="modal" data-bs-target="#orderPacket">Pesan</a>
-              </div>
-            </div>
-          </div>
-          <!-- end Paket Video Editing -->
-
-          <!-- Paket Copy Writing -->
-          <div class="col-sm-3 pb-3">
-            <div class="card paket">
-              <img src="assets/img/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg" class="card-img-top" alt="paketC" />
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Copywriting</h5>
-                <h6 class="card-title harga">Comingsoon</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-warning btnPacket3" data-bs-target="#orderPacket" data-bs-toggle="modal">Pesan</a>
-              </div>
-            </div>
-          </div>
-          <!-- end Paket Copy Writing -->
-
-          <!-- Paket Microsoft Office -->
-          <div class="col-sm-3 pb-3">
-            <div class="card paket">
-              <img src="assets/img/3719147.png" class="card-img-top" alt="paketD" />
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Microsoft Office</h5>
-                <h6 class="card-title harga">Comingsoon</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-warning btnPacket4" data-bs-toggle="modal" data-bs-target="#orderPacket">Pesan</a>
-              </div>
-            </div>
-          </div>
-          <!-- end Paket Microsoft Office -->
-        </div>
+        <div id="packet-list" class="row"></div>
       </div>
     </section>
     <!-- end Card Daftar Paket -->
-
-    <!-- modal -->
-    <div class="modal fade" id="orderPacket" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Form Registration</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <!-- Form -->
-          <form action="send_Data.php" method="POST">
-            <div class="modal-body"></div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-primary">Pesan</button>
-            </div>
-          </form>
-          <!-- end form -->
-        </div>
-      </div>
-    </div>
-    <!-- end modal -->
 
     <!-- Penjelasan Benefit -->
     <section class="py-5 bg-light">
@@ -303,6 +222,6 @@
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- myScript -->
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
