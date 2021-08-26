@@ -23,7 +23,7 @@ $(function () {
                     <h6 class="card-title text-decoration-line-through harga">${item.harga}</h6>
                   </div>
                   <p class="card-text">${item.content}</p>
-                  <button type="button" class="btn btn-outline-warning btnPacket" id="btn-packet" data-bs-toggle="modal" data-bs-target="#orderPacket" disabled>Pesan</button>
+                  <button type="button" class="btn btn-outline-warning btnPacket" id="btn-packet" data-bs-toggle="modal" data-bs-target="#orderPacket" disabled><a href="https://bit.ly/daftarkursusdesain1" class="link-daftar text-decoration-none text-dark fw-bold">Daftar</a></button>
                 </div>
               </div>
             </div>
