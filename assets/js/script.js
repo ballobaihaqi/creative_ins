@@ -23,12 +23,12 @@ $(function () {
                     <h6 class="card-title text-decoration-line-through harga">${item.harga}</h6>
                   </div>
                   <p class="card-text">${item.content}</p>
-                  <button type="button" class="btn btn-outline-warning" id="btnPacket" data-bs-toggle="modal" data-bs-target="#orderPacket" disabled>Pesan</button>
+                  <button type="button" class="btn btn-outline-warning btnPacket" id="btn-packet" data-bs-toggle="modal" data-bs-target="#orderPacket" disabled>Pesan</button>
                 </div>
               </div>
             </div>
           `;
-          const button = document.querySelector("#btnPacket");
+          const button = document.querySelector("#btn-packet");
           if (item.hrgDisc == "Coming Soon") {
             button.disabled = false;
           } else {
