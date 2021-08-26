@@ -13,7 +13,7 @@ $(function () {
         let pkt = responseJson.packet;
         pkt.forEach((item) => {
           listPacket.innerHTML += `
-            <div class="col-sm-3 pb-3">
+            <div class="col-md-3 pb-3">
               <div class="card paket">
                 <img src="${item.img}" class="card-img-top" alt="paketA" />
                 <div class="card-body">
