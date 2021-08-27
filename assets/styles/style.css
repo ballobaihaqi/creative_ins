@@ -20,6 +20,11 @@ main {
   position: absolute;
   z-index: -1;
 }
+.mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 500px;
+  width: 100%;
+}
 .price,
 .hargaDisc {
   color: #ff930f;
@@ -65,11 +70,16 @@ main {
   /* Page Home */
   .banner {
     width: 100%;
-    height: 500px;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
     position: absolute;
     z-index: -1;
+  }
+  .mask {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
   }
   /* Page About */
   .imgAbout {
