@@ -43,12 +43,12 @@ main {
 .benefit-content {
   text-align: justify;
 }
-#event {
+.event {
   background: linear-gradient(to right, #ff8008, #ffc837); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 10px;
 }
 
-#event a:hover {
+.event a:hover {
   transition: all 0.2s ease-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
   top: -20px;
