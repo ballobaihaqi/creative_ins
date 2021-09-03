@@ -9,7 +9,6 @@ RewriteCond %{HTTP_REFERER} !^https://creativeinsskill.com$      [NC]
 RewriteCond %{HTTP_REFERER} !^https://www.creativeinsskill.com/.*$      [NC]
 RewriteCond %{HTTP_REFERER} !^https://www.creativeinsskill.com$      [NC]
 RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
-DirectoryIndex home.php
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
