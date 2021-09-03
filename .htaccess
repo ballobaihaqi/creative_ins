@@ -1,15 +1,24 @@
-<IfModule mod_rewrite.c>
- 
 RewriteEngine on
- 
+
+RewriteCond %{HTTP_REFERER} !^http://creativeinsskill.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://creativeinsskill.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.creativeinsskill.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.creativeinsskill.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://creativeinsskill.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://creativeinsskill.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.creativeinsskill.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.creativeinsskill.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+DirectoryIndex home.php
+<IfModule mod_rewrite.c>
+RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
- 
-RewriteCond %{REQUEST_FILENAME}.html !-f
- 
-RewriteRule ^(.*)$ $1.html
- 
 RewriteCond %{REQUEST_FILENAME}.php -f
- 
 RewriteRule ^(.*)$ $1.php
- 
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
 </IfModule>
